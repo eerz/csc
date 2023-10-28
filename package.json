@@ -1,0 +1,24 @@
+{
+  "name": "csc",
+  "version": "1.0.0",
+  "description": "a cross server call system for discord where anyone can connect a bot to a network of sophisticated end to end encrypted call server",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "discord: eetn",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "body-parser": "^1.20.2",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "mongoose": "^7.6.3",
+    "prism-media": "^1.3.5",
+    "say": "^0.16.0",
+    "stream": "^0.0.2"
+  }
+}
